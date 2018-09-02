@@ -94,3 +94,4 @@ C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\Ex
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csproj.CopyComplete
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.pdb
+C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csprojAssemblyReference.cache
