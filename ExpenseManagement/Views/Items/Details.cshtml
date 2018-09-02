@@ -1,0 +1,67 @@
+﻿@model ExpenseManagement.Models.Item
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Item</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ItemName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItemName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItemCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItemCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ItemAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ItemAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExpeseDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpeseDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.User.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.User.UserName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ItemId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
