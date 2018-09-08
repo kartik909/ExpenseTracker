@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "MonthlyReport";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MonthlyReport</h2>
+
+@{
+    var myChart = new Chart(width: 600, height: 400)
+        .AddTitle("Chart Title")
+        .AddSeries(
+            name: "Employee",
+            xValue: ViewBag.dataForX,
+            yValues: ViewBag.dataForY)
+        .Write();
+}

@@ -28,9 +28,17 @@
 
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <li>@Html.ActionLink("Items", "Index", "Items")</li>
-                        <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
+                      
+                            <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
+                      
+                            <li>@Html.ActionLink("Items", "Index", "Items")</li>
+
+                      
+
                         <li>@Html.ActionLink("Logout", "Logout", "Login")</li>
+
+
+
                     }
                     else
                     {

@@ -10,6 +10,7 @@ using ExpenseManagement.Models;
 
 namespace ExpenseManagement.Controllers
 {
+
     public class CategoriesController : Controller
     {
         private ExpenseTrackerEntities db = new ExpenseTrackerEntities();
@@ -115,13 +116,13 @@ namespace ExpenseManagement.Controllers
             return RedirectToAction("Index");
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing)
+        //    {
+        //        db.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
     }
 }

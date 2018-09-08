@@ -1,0 +1,14 @@
+﻿
+@{
+    Layout = null;
+}
+
+@{
+    var myChart = new Chart(width: 600, height: 400)
+        .AddTitle("Chart Title")
+        .AddSeries(
+            name: "Employee",
+            xValue: ViewBag.dataForX,
+            yValues: ViewBag.dataForY)
+        .Write();
+}

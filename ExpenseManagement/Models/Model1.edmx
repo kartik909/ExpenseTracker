@@ -16,7 +16,7 @@
           <Key>
             <PropertyRef Name="ItemId" />
           </Key>
-          <Property Name="ItemId" Type="int" Nullable="false" />
+          <Property Name="ItemId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="ItemName" Type="nchar" MaxLength="20" Nullable="false" />
           <Property Name="ItemCategory" Type="nchar" MaxLength="20" Nullable="false" />
           <Property Name="ItemAmount" Type="int" Nullable="false" />
