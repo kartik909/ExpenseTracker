@@ -10,6 +10,7 @@ using ExpenseManagement.Models;
 
 namespace ExpenseManagement.Controllers
 {
+    [Authorize]
     public class ItemsController : Controller
     {
         private ExpenseTrackerEntities db = new ExpenseTrackerEntities();

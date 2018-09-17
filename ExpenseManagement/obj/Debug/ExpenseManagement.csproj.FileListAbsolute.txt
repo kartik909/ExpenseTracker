@@ -20,15 +20,12 @@ C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\M
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.AppContext.dll
-C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Console.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Diagnostics.Process.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.Compression.dll
-C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
-C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.Pipes.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Reflection.Metadata.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Security.AccessControl.dll
@@ -94,4 +91,7 @@ C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\Ex
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csproj.CopyComplete
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.pdb
+C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
 C:\Users\kartik909\source\repos\ExpenseManagement\ExpenseManagement\obj\Debug\ExpenseManagement.csprojAssemblyReference.cache

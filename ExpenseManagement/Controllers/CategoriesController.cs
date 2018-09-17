@@ -4,18 +4,18 @@ using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Web;
+using System.Web.Security;
 using System.Web.Mvc;
+
 using ExpenseManagement.Models;
 
 namespace ExpenseManagement.Controllers
 {
-
+    [Authorize(Roles ="A")]
     public class CategoriesController : Controller
     {
         private ExpenseTrackerEntities db = new ExpenseTrackerEntities();
 
-        // GET: Categories
         public ActionResult Index()
         {
             return View(db.Categories.ToList());
@@ -36,6 +36,7 @@ namespace ExpenseManagement.Controllers
             return View(category);
         }
 
+       
         // GET: Categories/Create
         public ActionResult Create()
         {
@@ -116,13 +117,13 @@ namespace ExpenseManagement.Controllers
             return RedirectToAction("Index");
         }
 
-        //protected override void Dispose(bool disposing)
-        //{
-        //    if (disposing)
-        //    {
-        //        db.Dispose();
-        //    }
-        //    base.Dispose(disposing);
-        //}
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
+        }
     }
 }

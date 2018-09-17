@@ -10,12 +10,10 @@
 
 <h2>Index</h2>
 
-
-
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
+<table id="item" class="table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.ItemName)
@@ -63,8 +61,21 @@
                 @Html.ActionLink("Edit", "Edit", new { id = item.ItemId }) |
                 @Html.ActionLink("Details", "Details", new { id = item.ItemId }) |
                 @Html.ActionLink("Delete", "Delete", new { id = item.ItemId })
+                <button class="btn">Click</button>
             </td>
         </tr>
     }
 
 </table>
+
+@section scripts{
+
+    <script>
+        $(document).ready(function () {
+            $(".btn").on("click", function () {
+                confirm("Hello");
+            });
+            $("#item").DataTable();
+        });
+    </script>
+}
