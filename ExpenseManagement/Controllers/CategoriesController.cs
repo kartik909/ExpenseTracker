@@ -16,6 +16,7 @@ namespace ExpenseManagement.Controllers
     {
         private ExpenseTrackerEntities db = new ExpenseTrackerEntities();
 
+       
         public ActionResult Index()
         {
             return View(db.Categories.ToList());
